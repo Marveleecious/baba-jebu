@@ -1,0 +1,33 @@
+#form{
+    box-sizing: border-box;
+    height: 400px;
+    max-width: 300px;
+    margin: auto;
+    padding: 1px;
+    background-color: rgb(132, 133, 133);
+    box-shadow: rgb(197, 0, 0);
+    border: 1px grey;
+    border-radius: 100px;
+}
+
+input{
+    /* width: 30%;                        */
+    padding: 8px;
+    margin-left: 50px;
+    border-radius: 10px;
+    text-align: CENTER;
+}
+
+P{
+    padding: 8px;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: left;  
+}
+
+button{
+    padding: 8px;
+    margin-left: 120px;
+    border-radius: 10px;
+
+}

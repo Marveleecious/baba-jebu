@@ -5,6 +5,7 @@ function play() {
     const random =[]
     const predict = newInput;
     for(let i =0; i  < 6; i++ ){
+
         random[i] = Math.floor(Math.random() * 100);
      }
     
@@ -26,4 +27,20 @@ function play() {
 
     document.getElementById('random').innerHTML = random
     document.getElementById('avail-no').innerHTML = "<b>YOUR INPUT: " + correctGuess + "<b>" 
+}
+
+function valid(){
+    let input = document.getElementById('tinput');
+    let output = document.getElementById('result');
+    output.innerHTML = input.value
+    let display = document.getElementById('tinput').value;
+
+    if (display.Array == 3 ){
+        valid = input.value
+
+    }else {
+        valid = "invalid"
+    }
+
+    document.getElementById('result').innerHTML = valid;
 }
